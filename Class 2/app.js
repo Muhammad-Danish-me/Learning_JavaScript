@@ -59,3 +59,22 @@ console.log(1 < 1); // False
 console.log(1 >= 1); // True
 // <= => less than or equal to
 console.log(1 <= 1); // True
+
+// Stack and Heap memory in JavaScript
+// Stack memory  (Primitive)
+// 1. It is a LIFO (Last In First Out) data structure.
+let userOne = "Danish";
+let userOneCopy = userOne;
+userOneCopy = "Hammad";
+console.log(userOne); // Danish
+console.log(userOneCopy); // Hammad
+
+// Heap memory (Reference Non Primitive)
+let userTwo = {
+  name: "Danish",
+  email: "danish@gmail.com",
+};
+let userTwoCopy = userTwo;
+userTwoCopy.name = "Hammad"; // Its also change orignal Value
+console.log(userTwo); // { name: 'Hammad', email: 'danish@gmail.com
+console.log(userTwoCopy); // { name: 'Hammad', email: 'danish@gmail.com
