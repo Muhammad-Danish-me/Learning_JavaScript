@@ -23,3 +23,18 @@ console.log(fullName.substring(0, 5)); // Muham
 
 // 8 split() Convert string to an array
 console.log(fullName.split(" ")); // ["Muhammad", "Danish"]
+
+// 9 join() Joins an array of strings into a single string.
+let days = ["Monday", "Tuesday", "Wednesday"];
+console.log(days.join(" ")); // Monday Tuesday Wednesday
+
+// 10 replace(): Replaces a specified value with a new value.
+console.log(fullName.replace("Danish", "Ahmed")); // Muhammad Ahmed
+
+// 11 trim(): Removes whitespace from the beginning and end of the string.
+let string = "    Hello World    ";
+console.log(string);
+console.log(string.trim()); // Hello World
+
+// 12 concat(): Concatenates two or more strings.
+console.log("Muhammad".concat(" ", "Ali")); // Hello World
