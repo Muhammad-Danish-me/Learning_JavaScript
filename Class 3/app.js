@@ -21,8 +21,5 @@ console.log(fullName.includes("Danish")); // true
 // 7  substring(): Returns a subset of the string between two indices.
 console.log(fullName.substring(0, 5)); // Muham
 
-// 8 split() Convert string to an array 
+// 8 split() Convert string to an array
 console.log(fullName.split(" ")); // ["Muhammad", "Danish"]
-
-
-
