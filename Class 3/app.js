@@ -38,3 +38,6 @@ console.log(string.trim()); // Hello World
 
 // 12 concat(): Concatenates two or more strings.
 console.log("Muhammad".concat(" ", "Ali")); // Hello World
+
+// 13 slice() Make string copy Returns a subset of the string between two indices.
+console.log(fullName.slice(0, 5)); // Muham
