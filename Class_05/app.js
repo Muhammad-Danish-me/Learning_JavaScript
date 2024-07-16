@@ -9,3 +9,30 @@ console.log(`Hour ${myDate.getHours()}`); // Get Current Hour (0 to 23)
 console.log(`Milliseconds ${myDate.getMilliseconds()}`); // Get Milliseconds (0 - 59)
 console.log(`Minutes ${myDate.getMinutes()}`); // Get Current minutes (0 - 59)
 console.log(`Time ${myDate.getTime()}`); // Milliseconds since midnight, January 1, 1970
+// Days
+let = days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+console.log(`${days[myDate.getDay()]}`);
+// Months
+let months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+console.log(`${months[myDate.getMonth()]}`);
