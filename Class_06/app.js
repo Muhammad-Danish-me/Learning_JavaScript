@@ -39,3 +39,8 @@ console.log("Concat", allCeleb);
 // Spread Operator
 let allNewCeleb = [...pkCeleb, ...indiaCeleb];
 console.log("Spread Operator", allNewCeleb);
+
+let nestedArr = [1, 2, 3, [4, 5, 6], 7, 8, [9, 10], 11];
+console.log(nestedArr);
+let allArr = nestedArr.flat(Infinity);
+console.log(allArr);
