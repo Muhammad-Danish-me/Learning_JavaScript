@@ -27,3 +27,15 @@ console.log(myNewArr.splice(0, 3)); // Spilce Impact Orignal Array
 console.log(myNewArr);
 
 console.log(myNewArr.join()); // Join Convert Array Into String
+
+let pkCeleb = ["Feroz Khan", "Danish Taimor", "Fahad Mustafa"];
+let indiaCeleb = ["Salman Khan", "Sharukh Khan", "Ajay Devgan"];
+// pkCeleb.push(indiaCeleb)
+// console.log(pkCeleb);
+// Concat
+let allCeleb = pkCeleb.concat(indiaCeleb);
+console.log("Concat", allCeleb);
+
+// Spread Operator
+let allNewCeleb = [...pkCeleb, ...indiaCeleb];
+console.log("Spread Operator", allNewCeleb);
