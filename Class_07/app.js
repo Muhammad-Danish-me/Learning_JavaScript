@@ -1,6 +1,7 @@
 // Objects
 let userData = {
   name: "Danish",
+  "full name": "Muhammad Danish",
   age: "18",
   email: "danish@google.com",
   city: "karachi",
@@ -13,3 +14,4 @@ console.log(userData);
 Object.freeze(userData);
 userData.name = "Hammad";
 console.log(userData);
+console.log(userData["full name"])
