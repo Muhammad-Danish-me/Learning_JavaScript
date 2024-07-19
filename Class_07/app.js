@@ -44,3 +44,72 @@ const obj2 = { 4: "d", 5: "e", 6: "f" };
 const obj3 = { ...obj1, ...obj2 }; // Spread Operator
 
 console.log(obj3);
+let mobilephones = {
+  iphone: {
+    iphone11: {
+      company: "Apple",
+      model: "Iphone 11",
+      ram: "8gb",
+      rom: "256gb",
+      chargingPort: "C-type",
+      price: "77,000 PKR",
+      color: "Black",
+      image: "images/Iphone 11.jpeg",
+    },
+    iphone12: {
+      company: "Apple",
+      model: "Iphone 12",
+      ram: "8gb",
+      rom: "256gb",
+      chargingPort: "C-type",
+      price: "100,000 PKR",
+      color: "Blue",
+      image: "images/Iphone 12.jpg",
+    },
+  },
+  Samsung: {
+    galaxy_A13: {
+      company: "Samusng",
+      model: "Samsung A13",
+      ram: "8gb",
+      rom: "256gb",
+      chargingPort: "C-type",
+      price: "50,000 PKR",
+      color: "Grey",
+      image: "images/samsung a13.jpeg",
+    },
+    galaxy_S20: {
+      company: "Samsung",
+      model: "Samsung S20",
+      ram: "8gb",
+      rom: "256gb",
+      chargingPort: "C-type",
+      price: "120,000 PKR",
+      color: "Dark Blue",
+      image: "images/Iphone 12.jpg",
+    },
+  },
+  infinix: {
+    hot_40_Pro: {
+      company: "Infinix",
+      model: "infinix Hot 40 Pro",
+      ram: "8gb",
+      rom: "256gb",
+      chargingPort: "C-type",
+      price: "45,499 PKR",
+      color: "Blue",
+      image: "images/Iphone 12.jpg",
+    },
+    note_30: {
+      company: "infinix",
+      model: "Infinix Note 30",
+      ram: "8gb",
+      rom: "256gb",
+      chargingPort: "C-type",
+      price: "43,799 PKR",
+      color: "Red",
+      image: "images/Iphone 12.jpg",
+    },
+  },
+};
+console.log(mobilephones);
