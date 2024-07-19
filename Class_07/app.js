@@ -112,7 +112,7 @@ let mobilephones = {
     },
   },
 };
-// console.log(mobilephones);
+console.log(mobilephones);
 
 const car = { type: "Fiat", model: "500", color: "white" };
 console.log(car.color);
@@ -122,3 +122,13 @@ console.log(Object.entries(car));
 
 console.log(car.hasOwnProperty("color"));
 console.log(car.hasOwnProperty("horsePower"));
+
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50,
+  eyeColor: "blue",
+};
+console.log(person.firstName);
+console.log(person.lastName);
+console.log(person.age);
