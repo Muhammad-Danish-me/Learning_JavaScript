@@ -115,10 +115,10 @@ let mobilephones = {
 console.log(mobilephones);
 
 const car = { type: "Fiat", model: "500", color: "white" };
-// console.log(car.color)
-// console.log(Object.keys(car));
-// console.log(Object.values(car));
-// console.log(Object.entries(car));
+console.log(car.color)
+console.log(Object.keys(car));
+console.log(Object.values(car));
+console.log(Object.entries(car));
 
-// console.log(car.hasOwnProperty("color"));
-// console.log(car.hasOwnProperty("horsePower"));
+console.log(car.hasOwnProperty("color"));
+console.log(car.hasOwnProperty("horsePower"));
