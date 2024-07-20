@@ -156,3 +156,16 @@ let array = [
   },
 ];
 console.log(array[1].name);
+
+// Object de-structure
+
+const course = {
+  courseName: "JS",
+  Price: "Free",
+  courseInstructor: "Hitesh",
+};
+course.courseInstructor;
+
+const { courseInstructor: instructor } = course;
+// console.log(courseInstructor);
+console.log(instructor);
