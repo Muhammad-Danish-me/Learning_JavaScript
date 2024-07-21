@@ -38,3 +38,9 @@ function greeting(userName) {
 }
 let greetingMessage = greeting("Danish");
 console.log(greetingMessage);
+
+function calculateCartPrice(...num1) {
+  return num1;
+}
+let allPrice = calculateCartPrice(10, 20, 500, 2000, 700);
+console.log(allPrice);
