@@ -8,3 +8,17 @@ function sayMyName() {
   console.log("H");
 }
 sayMyName(); // Call the function
+
+function addTwoNumber(number1, number2) {
+  console.log(number1 + number2);
+}
+let total = addTwoNumber(2, 3);
+console.log(total); // undefined
+
+function addNumber(num1, num2) {
+  let result = num1 + num2;
+  return result;
+}
+
+const result = addNumber(5, 5);
+console.log("Result: ", result);
