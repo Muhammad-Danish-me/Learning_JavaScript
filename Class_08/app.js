@@ -59,3 +59,12 @@ function handleObject(anyObject) {
 handleObject(user);
 
 // *************
+
+// Function With Array
+const myNewArray = [10, 200, 500, 700];
+function returnSecondValue(getArray) {
+  return getArray[1];
+}
+console.log(returnSecondValue(myNewArray));
+
+// *************
