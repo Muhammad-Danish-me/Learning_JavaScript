@@ -32,3 +32,9 @@ function loginUserMessage(username) {
 }
 let loginMessage = loginUserMessage("Danish");
 console.log(loginMessage);
+
+function greeting(userName) {
+  return `Hello ${userName}`;
+}
+let greetingMessage = greeting("Danish");
+console.log(greetingMessage);
