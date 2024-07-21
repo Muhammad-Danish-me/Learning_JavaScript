@@ -22,3 +22,13 @@ function addNumber(num1, num2) {
 
 const result = addNumber(5, 5);
 console.log("Result: ", result);
+
+function loginUserMessage(username) {
+  if (username) {
+    return `${username} Just Logged in`;
+  } else {
+    console.log("Please Enter Username");
+  }
+}
+let loginMessage = loginUserMessage("Danish");
+console.log(loginMessage);
