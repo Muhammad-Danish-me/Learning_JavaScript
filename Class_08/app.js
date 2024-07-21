@@ -44,3 +44,18 @@ function calculateCartPrice(...num1) {
 }
 let allPrice = calculateCartPrice(10, 20, 500, 2000, 700);
 console.log(allPrice);
+
+// Function with Object
+const user = {
+  userName: "Danish",
+  email: "danish@google.com",
+};
+
+function handleObject(anyObject) {
+  console.log(
+    `The username is ${anyObject.userName} and Email is ${anyObject.email}`
+  );
+}
+handleObject(user);
+
+// *************
