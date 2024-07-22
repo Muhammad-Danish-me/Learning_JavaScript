@@ -39,3 +39,23 @@ const addTwo = function (num) {
 };
 
 console.log(addTwo(5));
+// *************
+
+function greeting() {
+  var message = "Hello";
+}
+console.log(message); //
+
+// - var:
+//     - Declares a variable with a function scope.
+//     - Hoists the variable to the top of the scope, regardless of where it's declared.
+//     - Can be redeclared and reassigned.
+
+// - let:
+//     - Declares a variable with a block scope (e.g., inside a curly brace {}).
+//     - Does not hoist the variable, so it's only accessible after declaration.
+//     - Can be reassigned, but not redeclared.
+// - const:
+//     - Declares a constant value that cannot be changed.
+//     - Also has block scope like let.
+//     - Must be initialized when declared, and cannot be reassigned or redeclared
