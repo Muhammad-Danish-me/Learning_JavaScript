@@ -59,3 +59,8 @@ function greeting() {
 //     - Declares a constant value that cannot be changed.
 //     - Also has block scope like let.
 //     - Must be initialized when declared, and cannot be reassigned or redeclared
+
+function sayHello() {
+  console.log("Hello");
+}
+sayHello();
