@@ -44,7 +44,7 @@ console.log(addTwo(5));
 function greeting() {
   var message = "Hello";
 }
-console.log(message); //
+// console.log(message); // Error
 
 // - var:
 //     - Declares a variable with a function scope.
