@@ -17,3 +17,14 @@ function myFunc() {
   console.log(this);
 }
 myFunc();
+
+// Arrow Function
+
+// () => {
+
+// }
+
+const arrowFunc = (num1, num2) => {
+  return num1 + num2;
+};
+console.log(arrowFunc(2, 2));
