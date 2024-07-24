@@ -1,4 +1,4 @@
-// Immediately Invoked Function Expressions IIFE
+// Immediately Invoked Function Expressions (IIFE)
 (function db() {
   console.log("DB Connected");
 })();
@@ -7,5 +7,6 @@
 })();
 
 (function showName(name) {
+  // Named IIFE
   console.log(`Hello, ${name}`);
 })("Danish");
