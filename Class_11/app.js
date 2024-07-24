@@ -5,3 +5,7 @@
 (() => {
   console.log("DB Connected Two");
 })();
+
+(function showName(name) {
+  console.log(`Hello, ${name}`);
+})("Danish");
