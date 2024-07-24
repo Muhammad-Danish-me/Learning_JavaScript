@@ -10,3 +10,5 @@
   // Named IIFE
   console.log(`Hello, ${name}`);
 })("Danish");
+
+// UnNamed IIFE
