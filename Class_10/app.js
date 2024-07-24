@@ -33,3 +33,7 @@ console.log(arrowFunc(2, 2));
 const arrowFunc2 = (num1, num2) => num1 + num2;
 
 console.log(arrowFunc2(2, 5));
+
+const showUser = () => ({ userName: "Danish" });
+
+console.log(showUser());
