@@ -29,5 +29,8 @@ val1 = null ?? 5;
 
 console.log(val1);
 
-
 // ternary Operator
+// condition ? true : false
+
+const iceTeaPrice = 100;
+iceTeaPrice >= 80 ? console.log(`less than 80`) : console.log(`More than 80`);
