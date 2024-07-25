@@ -12,3 +12,8 @@
 })("Danish");
 
 // UnNamed IIFE
+function addThree(num1) {
+  let total = num1 + 3;
+  return total;
+}
+console.log(addThree(10));
