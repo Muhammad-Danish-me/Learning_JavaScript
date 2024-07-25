@@ -6,3 +6,9 @@ if (temperature < 50) {
 } else {
   console.log(`Temperature is Greater than 50`);
 }
+
+// Implicit Scoop
+const balance = 2000;
+if (balance > 500) console.log("test"), console.log("Test 2");
+
+
