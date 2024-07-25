@@ -1,5 +1,8 @@
-// Falsy Value
+// Falsy Values
 // false, 0, -0, BigInt 0n, "", null, undefined, Nan
+
+// Truthy Values
+// "0", 'False', "  ", [], {}, function(){}
 
 const userEmail = "danish@gmail.com";
 
