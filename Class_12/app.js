@@ -26,3 +26,9 @@ const debitCard = true;
 if (userLoggedIn && debitCard) {
   console.log(`Allow to Buy Course`);
 }
+
+const loggedInFromGoogle = false;
+const loggedInFromEmail = true;
+if (loggedInFromGoogle || loggedInFromEmail) {
+  console.log(`User Logged In`);
+}
