@@ -21,3 +21,13 @@ const emptyObj = {};
 if (Object.keys(emptyObj).length === 0) {
   console.log(`object is empty`);
 }
+
+// nullish coalescing operator (??): null undefined
+let val1;
+// val1 = 5 ?? 10;
+val1 = null ?? 5;
+
+console.log(val1);
+
+
+// ternary Operator
