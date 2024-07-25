@@ -11,4 +11,12 @@ if (temperature < 50) {
 const balance = 2000;
 if (balance > 500) console.log("test"), console.log("Test 2");
 
-
+if (balance < 500) {
+  console.log(`less than  500`);
+} else if (balance < 1000) {
+  console.log(`less than 1000`);
+} else if (balance < 1500) {
+  console.log(`less than 1500`);
+} else {
+  console.log(`less than 2500`);
+}
