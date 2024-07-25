@@ -20,3 +20,9 @@ if (balance < 500) {
 } else {
   console.log(`less than 2500`);
 }
+
+const userLoggedIn = true;
+const debitCard = true;
+if (userLoggedIn && debitCard) {
+  console.log(`Allow to Buy Course`);
+}
