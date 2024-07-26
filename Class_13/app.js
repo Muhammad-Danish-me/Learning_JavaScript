@@ -19,3 +19,9 @@ for (let i = 1; i <= 10; i++) {
     console.log(`${i} x ${j} = ${i * j}`);
   }
 }
+
+let myArray = ["flash", "Superman", "Batman"];
+for (let index = 0; index < myArray.length; index++) {
+  const element = myArray[index];
+  console.log(element);
+}
