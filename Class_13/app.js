@@ -61,3 +61,11 @@ while (arr < heros.length) {
   console.log(`value is array ${heros[arr]}`);
   arr = arr + 1;
 }
+
+// do while loop
+
+let score = 11;
+do {
+  console.log(`The Score is ${score}`);
+  score++;
+} while (score < 10);
