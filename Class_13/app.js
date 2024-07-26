@@ -45,3 +45,19 @@ for (let i = 1; i <= 20; i++) {
 for (let i = 0; i <= 5; i++) {
   console.log(i);
 }
+
+// while loop
+
+let i = 0;
+while (i <= 10) {
+  console.log(`The value of i is ${i}`);
+  i = i + 2;
+}
+
+let heros = ["flash", "Superman", "Batman"];
+
+let arr = 0;
+while (arr < heros.length) {
+  console.log(`value is array ${heros[arr]}`);
+  arr = arr + 1;
+}
