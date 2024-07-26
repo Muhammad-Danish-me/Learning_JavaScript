@@ -6,3 +6,10 @@ for (let i = 0; i < 10; i++) {
   }
   console.log(i);
 }
+
+for (let i = 0; i <= 5; i++) {
+  console.log(`Outer Loop: ${i}`);
+  for (let j = 0; j <= 5; j++) {
+    console.log(`Inner Loop Value: ${j} and Outer loop ${i}`);
+  }
+}
