@@ -13,3 +13,17 @@ for (const greet of greeting) {
   }
   console.log(`The Char of ${greet}`);
 }
+
+// Map
+
+const map = new Map();
+map.set("PK", "Pakistan");
+map.set("USA", "United states of america");
+map.set("Fr", "France");
+map.set("PK", "Pakistan");
+
+console.log(map);
+
+for (const [key, value] of map) {
+  console.log(key, ":-", value);
+}
