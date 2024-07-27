@@ -27,3 +27,15 @@ console.log(map);
 for (const [key, value] of map) {
   console.log(key, ":-", value);
 }
+
+// For in loop
+const myObject = {
+  js: "javascript",
+  py: "phyton",
+  cpp: "c++",
+  rb: "ruby",
+};
+
+for (const key in myObject) {
+  console.log(`${key} Shortcut is for ${myObject[key]}`);
+}
