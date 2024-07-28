@@ -56,3 +56,9 @@ coding.forEach(function (ele) {
 coding.forEach((items) => {
   console.log("Arrow function", items);
 });
+
+const heros = ["flash", "batman", "superman"];
+function printMe(elements) {
+  console.log(elements);
+}
+heros.forEach(printMe);
