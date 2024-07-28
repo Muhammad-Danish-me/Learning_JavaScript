@@ -93,7 +93,7 @@ const myCoding = [
 myCoding.forEach((items) => {
   console.log(items.languageName, "->", items.languageFileName);
 });
-
+// for of loop
 const days = [
   "Monday",
   "Tuesday",
@@ -103,6 +103,6 @@ const days = [
   "Saturday",
   "Sunday",
 ];
- for (const elements of days) {
-  cons
- }
+for (const elements of days) {
+  console.log(elements);
+}
