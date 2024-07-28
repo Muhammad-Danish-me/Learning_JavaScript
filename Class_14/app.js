@@ -93,3 +93,14 @@ const myCoding = [
 myCoding.forEach((items) => {
   console.log(items.languageName, "->", items.languageFileName);
 });
+
+const days = [
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+  "Sunday",
+];
+
