@@ -103,4 +103,6 @@ const days = [
   "Saturday",
   "Sunday",
 ];
-
+ for (const elements of days) {
+  cons
+ }
