@@ -52,3 +52,7 @@ const coding = ["js", "ruby", "python", "cpp", "java"];
 coding.forEach(function (ele) {
   console.log(ele);
 });
+
+coding.forEach((items) => {
+  console.log("Arrow function", items);
+});
