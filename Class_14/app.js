@@ -39,3 +39,9 @@ const myObject = {
 for (const key in myObject) {
   console.log(`${key} Shortcut is for ${myObject[key]}`);
 }
+
+const programming = ["js", "py", "rb", "cpp"];
+
+for (const key in programming) {
+  console.log(programming[key]);
+}
