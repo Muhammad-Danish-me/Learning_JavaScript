@@ -62,3 +62,16 @@ function printMe(elements) {
   console.log(elements);
 }
 heros.forEach(printMe);
+
+const countries = [
+  "Pakistan",
+  "America",
+  "China",
+  "Bangladesh",
+  "France",
+  "Germany",
+  "Japan",
+];
+coding.forEach((elements, index, array) => {
+  console.log(elements, index, array);
+});
