@@ -45,3 +45,10 @@ const programming = ["js", "py", "rb", "cpp"];
 for (const key in programming) {
   console.log(programming[key]);
 }
+
+// for each
+const coding = ["js", "ruby", "python", "cpp", "java"];
+
+coding.forEach(function (ele) {
+  console.log(ele);
+});
