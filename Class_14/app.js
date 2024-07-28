@@ -75,3 +75,21 @@ const countries = [
 coding.forEach((elements, index, array) => {
   console.log(elements, index, array);
 });
+
+const myCoding = [
+  {
+    languageName: "javascript",
+    languageFileName: "js",
+  },
+  {
+    languageName: "ruby",
+    languageFileName: "rb",
+  },
+  {
+    languageName: "python",
+    languageFileName: "py",
+  },
+];
+myCoding.forEach((items) => {
+  console.log(items.languageName, "->", items.languageFileName);
+});
