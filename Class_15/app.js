@@ -20,3 +20,9 @@ console.log(title);
 
 title = document.querySelector("#title");
 console.log(title);
+
+const myUl = document.querySelector("ul");
+console.log(myUl);
+const turnGreen = myUl.querySelector("li");
+console.log(turnGreen);
+turnGreen.style.backgroundColor = "green";
