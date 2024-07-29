@@ -49,3 +49,12 @@ myPara.style.backgroundColor = "yellow";
 myPara.style.color = "black";
 myPara.style.padding = "10px";
 myPara.style.borderRadius = "15px";
+
+const mylist = document.querySelectorAll("li");
+console.log(mylist);
+mylist.forEach((l) => {
+  l.style.backgroundColor = "yellow";
+  l.style.color = "black";
+  l.style.padding = "10px";
+  l.style.borderRadius = "15px";
+});
