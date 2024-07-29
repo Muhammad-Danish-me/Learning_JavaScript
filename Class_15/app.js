@@ -9,4 +9,4 @@ console.log(h1);
 h1.style.backgroundColor = "green";
 h1.style.borderRadius = "15px";
 h1.style.padding = "15px";
-console.log(h1.innerHTML)
+console.log(h1.innerHTML);
