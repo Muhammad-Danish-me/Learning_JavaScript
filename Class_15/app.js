@@ -12,3 +12,8 @@ h1.style.padding = "15px";
 console.log("inner Text: >", h1.innerText); // it's give value which is display on browser
 console.log("Text Content: >", h1.textContent); // it's give value which is display browser or hide
 console.log("inner HTML: >", h1.innerHTML); // it's give  value with html tags if it's have
+
+let title = document.querySelector("h2"); // it's give just one h2 which is available first
+console.log(title);
+title = document.querySelectorAll("h2"); // it's give all h2
+console.log(title);
