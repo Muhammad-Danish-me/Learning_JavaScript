@@ -17,3 +17,6 @@ let title = document.querySelector("h2"); // it's give just one h2 which is avai
 console.log(title);
 title = document.querySelectorAll("h2"); // it's give all h2
 console.log(title);
+
+title = document.querySelector("#title");
+console.log(title);
