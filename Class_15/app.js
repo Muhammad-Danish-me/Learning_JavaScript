@@ -43,3 +43,9 @@ myH2.forEach((l) => {
   l.style.padding = "10px";
   l.style.borderRadius = "15px";
 });
+
+const myPara = document.querySelector("p");
+myPara.style.backgroundColor = "yellow";
+myPara.style.color = "black";
+myPara.style.padding = "10px";
+myPara.style.borderRadius = "15px";
