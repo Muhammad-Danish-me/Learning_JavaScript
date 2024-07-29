@@ -26,3 +26,10 @@ console.log(myUl);
 const turnGreen = myUl.querySelector("li");
 console.log(turnGreen);
 turnGreen.style.backgroundColor = "green";
+
+turnGreen.innerText = "five";
+
+const myH1 = document.querySelectorAll("h1");
+console.log(myH1);
+myH1[0].style.backgroundColor = "yellow";
+myH1[0].style.color = "black";
