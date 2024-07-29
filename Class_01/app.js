@@ -16,7 +16,7 @@ console.log(a); // output 20
 // example
 let b = 10;
 // let b = 20; // error, cannot redeclared
-x = 20; // updates the value
+b = 20; // updates the value
 console.log(b); // output 20
 
 // 3) const
