@@ -37,9 +37,9 @@ myH1[0].style.color = "black";
 const myH2 = document.querySelectorAll("h2");
 
 console.log(myH2);
-myH2.forEach( (l) => {
-    l.style.backgroundColor = "yellow"
-    l.style.color = "black"
-    l.style.padding = "10px"
-    l.style.borderRadius = "15px"
-})
+myH2.forEach((l) => {
+  l.style.backgroundColor = "yellow";
+  l.style.color = "black";
+  l.style.padding = "10px";
+  l.style.borderRadius = "15px";
+});
