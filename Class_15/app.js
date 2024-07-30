@@ -58,3 +58,19 @@ mylist.forEach((l) => {
   l.style.padding = "10px";
   l.style.borderRadius = "15px";
 });
+
+const listItem = document.getElementsByClassName("list-item");
+console.log(listItem);
+
+const myConvertedArray = Array.from(listItem);
+
+console.log(myConvertedArray);
+myConvertedArray.forEach((li) => {
+  // console.log(li)
+  li.style.fontSize = "2em";
+});
+
+myConvertedArray.map((li) => {
+  // console.log(li)
+  li.style.color = "red";
+});
