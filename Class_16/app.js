@@ -13,3 +13,4 @@ document.body.appendChild(myDiv);
 
 myDiv.style.fontSize = "30px";
 myDiv.style.fontWeight = "bold";
+
