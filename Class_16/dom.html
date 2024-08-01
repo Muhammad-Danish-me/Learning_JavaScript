@@ -23,5 +23,12 @@
       document.querySelector(".language").appendChild(li);
     }
     addOptiLanguage("Typescript");
+    // Edit
+    const secondlang = document.querySelector("li:nth-child(2)");
+    console.log(secondlang);
+    // secondlang.innerHTML = "Java"
+    const newLi = document.createElement("li");
+    newLi.textContent = "Rust";
+    secondlang.replaceWith(newLi);
   </script>
 </html>
