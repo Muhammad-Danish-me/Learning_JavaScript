@@ -30,5 +30,9 @@
     const newLi = document.createElement("li");
     newLi.textContent = "Rust";
     secondlang.replaceWith(newLi);
+
+    // edit
+    const firstLang = document.querySelector("li:first-child");
+    firstLang.outerHTML = `<li>TypeScript</li>`;
   </script>
 </html>
