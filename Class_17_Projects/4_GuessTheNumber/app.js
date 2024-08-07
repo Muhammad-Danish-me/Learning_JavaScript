@@ -1,4 +1,4 @@
-const randomNumber = parseInt(Math.random() * 100 + 1);
+let randomNumber = parseInt(Math.random() * 100 + 1);
 const submit = document.querySelector("#subt");
 const userInput = document.querySelector("#guessField");
 const guessSlot = document.querySelector(".guesses");
@@ -15,7 +15,6 @@ if (playGame) {
   submit.addEventListener("click", (e) => {
     e.preventDefault();
     let guess = parseInt(userInput.value);
-    console.log(guess);
     validateGuess(guess);
   });
 }
@@ -39,12 +38,50 @@ function validateGuess(guess) {
     }
   }
 }
-function checkGuess(guess) {}
+function checkGuess(guess) {
+  if (guess === randomNumber) {
+    displayMessage("You guessed it right");
+    endGame();
+  } else if (guess < randomNumber) {
+    displayMessage("Number is too low");
+  } else if (guess > randomNumber) {
+    displayMessage("Number is too High");
+  }
+}
 
-function displayGuess(guess) {}
+function displayGuess(guess) {
+  userInput.value = "";
+  guessSlot.innerHTML += `${guess}, `;
+  numOfGuess++;
+  remainGuess.innerHTML = `${11 - numOfGuess}`;
+}
 
-function displayMessage(message) {}
+function displayMessage(message) {
+  lowOrHi.innerHTML = `<h2>${message}</h2>`;
+}
 
-function endGame() {}
+function endGame() {
+  userInput.value = "";
+  userInput.setAttribute("disabled", "");
+  p.classList.add("button");
+  p.innerHTML = `<h2 id="newGame">Start New Game</h2>`;
+  startOver.appendChild(p);
+  submit.setAttribute("disabled", "");
+  playGame = false;
+  newGame();
+}
 
-function newGame() {}
+function newGame() {
+  const newGame = document.getElementById("newGame");
+  newGame.addEventListener("click", () => {
+    userInput.removeAttribute("disabled");
+    randomNumber = parseInt(Math.random() * 100 + 1);
+    preGuess = [];
+    numOfGuess = 1;
+    guessSlot.innerHTML = "";
+    remainGuess.innerHTML = `${11 - numOfGuess}`;
+    submit.removeAttribute("disabled");
+    startOver.removeChild(p);
+    playGame = true;
+  });
+}

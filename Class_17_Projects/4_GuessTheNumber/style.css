@@ -41,7 +41,21 @@ button {
   font-size: 20px;
   border-style: none;
   margin-top: 50px;
+  cursor: pointer;
   /* margin-left: 75px; */
+}
+#newGame {
+  background-color: #161616;
+  color: #ffffff;
+  width: 200px;
+  height: 50px;
+  margin-left: 122px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  border-style: none;
+  cursor: pointer;
 }
 
 #guessField {
@@ -72,7 +86,7 @@ button {
   box-sizing: border-box;
   text-align: center;
   width: 450px;
-  height: 600px;
+  height: 100%;
   background-color: #474747;
   color: #fff;
   font-size: 25px;
