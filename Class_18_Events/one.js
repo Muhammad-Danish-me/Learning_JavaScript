@@ -22,8 +22,25 @@ document.getElementById("images").addEventListener(
 );
 document.getElementById("owl").addEventListener(
   "click",
-  () => {
+  (e) => {
     console.log("owl Clicked");
+    // e.stopPropagation();
   },
   false
 );
+
+document.getElementById("google").addEventListener("click", (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  console.log("Clicked Google");
+});
+
+const images = document.querySelector("#images");
+images.addEventListener("click", (e) => {
+  console.log(e.target.parentNode);
+  if (e.target.tagName === "IMG") {
+    let removeIt = e.target.parentNode;
+    removeIt.remove();
+  }
+});
+// images.firstChild
