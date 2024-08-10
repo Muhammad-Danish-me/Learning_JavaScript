@@ -6,13 +6,13 @@ const randomColor = function () {
   }
   return color;
 };
-let stopRef;
 const generatedColor = randomColor();
 
 const body = document.querySelector("body");
 const startbtn = document.getElementById("start");
 const stopbtn = document.getElementById("stop");
 
+let stopRef;
 const startChangingColor = function () {
   if (!stopRef) {
     stopRef = setInterval(changeBgColor, 1000);
