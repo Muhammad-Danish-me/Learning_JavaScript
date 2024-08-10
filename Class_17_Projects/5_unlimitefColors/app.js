@@ -14,10 +14,12 @@ const startbtn = document.getElementById("start");
 const stopbtn = document.getElementById("stop");
 
 const startChangingColor = function () {
+  if (!stopRef) {
+    stopRef = setInterval(changeBgColor, 1000);
+  }
   function changeBgColor() {
     body.style.backgroundColor = randomColor();
   }
-  stopRef = setInterval(changeBgColor, 1000);
 };
 const stopChangingColor = function () {
   clearInterval(stopRef);
