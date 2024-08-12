@@ -1,8 +1,8 @@
 const promiseOne = new Promise(function (resolve, reject) {
   setTimeout(() => {
-    console.log("async task completed");
+    console.log("Async task completed");
+    resolve();
   }, 1000);
-  return resolve();
 });
 
 promiseOne.then(() => {
