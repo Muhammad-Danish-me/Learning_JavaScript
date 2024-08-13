@@ -18,7 +18,7 @@ new Promise((resolve, reject) => {
   console.log("Async 2 Resolved");
 });
 
-// 
+//
 
 const promiseThree = new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -53,4 +53,5 @@ promiseFour
   })
   .catch((error) => {
     console.log(error);
-  });
+  })
+  .finally(() => console.log("The Promise Either Resolved or Rejected"));
