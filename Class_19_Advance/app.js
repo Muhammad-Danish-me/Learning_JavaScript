@@ -21,7 +21,7 @@ xhr.onreadystatechange = function () {
     followers.innerHTML = `<h5> Followers:  ${data.followers} </h5>`;
     userLocation.innerHTML = `<h5> Location:  ${data.location} </h5>`;
     repos.innerHTML = `<h5> Repositories:  ${data.public_repos} </h5>`;
-    url.href = `${data.html_url}`
+    url.href = `${data.html_url}`;
   }
 };
 xhr.send();
