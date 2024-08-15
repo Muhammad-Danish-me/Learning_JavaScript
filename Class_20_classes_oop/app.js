@@ -5,6 +5,7 @@ const user = {
 
   getUserDetails: function () {
     console.log("Got user Details");
+    console.log(this.username);
   },
 };
 console.log(user);
