@@ -22,3 +22,14 @@ createUser.prototype.printMe = function () {
 
 const chai = new createUser("Chai", 30);
 chai.printMe();
+
+let myName = "Danish";
+
+console.log(myName.trim().length);
+
+Object.prototype.trueLenght = function () {
+  console.log(`the lenght of ${this.trim().length}`);
+};
+
+"hammad    ".trueLenght();
+"Bahsir Ahmed".trueLenght();
